@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CUBS RPG</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+<body>
+	<div id="wrapper">
+			
+		<div id="managers">
+			
+
+			<br><br>
+			
+			<div id="titoHolder">
+				<input id="titoInput" type="image" src="assets/pics/tito.png" />
+				<div id="titoAttackAttempt">Attack: <span id="titoAttack"></span> </div>
+					<div id="titoWinsCounter">Win: <span id="titoWins"></span></div>
+					<div id="titoLossCounter">Lose: <span id="titoLoss"></span></div>
+					<div id="titoEjectionCounter">Ejections: <span id="titoEjections"></span></div>
+					<br>
+				<div id="titoBar">
+					<div id="titoHealth"></div>
+				</div>
+			</div>
+
+			<div id="game holder">
+		<br><br>
+			<h1>Battle of the Managers</h1>
+			<button class="game"  id="Start">Start</button>
+			<button class="game"  id="Restart">Restart</button>
+		<br><br>
+			</div>
+
+				<div id="maddonHolder">
+					<input  id="maddonInput"  type="image" src="assets/pics/maddon.png" />
+					
+					<div id="maddonAttackAttempt">Attack: <span id="maddonAttack"></span></div>
+					<div id="maddonWinsCounter">Win: <span id="maddonWins"></span></div>
+					<div id="maddonLossCounter">Lose: <span id="maddonLoss"></span></div>
+					<div id="maddonEjectionCounter">Ejections: <span id="maddonEjections"></span></div>
+					<br>
+					<button id="throwPizza">Throw Pizza</button>
+					<button id="throwBeer">Throw Beer</button>
+					<button id="throwBat">Throw Bat</button>
+					<div id="maddonBar">
+						<div id="maddonHealth"></div>
+					</div>
+				</div>
+		</div>
+
+	</div>
+	
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" 
+ integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" 
+ crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
